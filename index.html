@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Use of Logical and Rhetorical Tactics within Eristic Argumentation</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style type="text/css">
+			.reveal .ref {
+			  position: absolute;
+			  left: 1em;
+			  font-size: 0.6em;
+			  text-align: left;
+			}
+		</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Argumentation on the Social Web</h1>
+					<h5>Use of Logical and Rhetorical Tactics within Eristic Argumentation</h5>
+					<p><small>Tom Blount, David Millard and Mark Weal</small></p>
+                    <!--<p><small>Slides available at: <a href="http://tomblount.co.uk/argumentation-social-web">http://tomblount.co.uk/argumentation-social-web</a></small></p>-->
+                    <a href="http://http://www.southampton.ac.uk/" ><img alt="University of Southampton" src="images/logo/blue.png" width="30%" style="margin-right: 50px; background:none; border:none; box-shadow:none;"></a>
+                    <a href="https://www.epsrc.ac.uk/" ><img alt="EPSRC" src="images/logo/epsrc-colour.png" width="20%" style="margin-left: 50px; background:none; border:none; box-shadow:none;"></a>
+                    <br/>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons" style="border-width:0;" src="images/cc.png" /></a>
+				</section>
+				<section>
+                    <h3>Introduction</h3>
+                    <ul>
+                        <li>Argumentation makes up an important part of human communication</li>
+                        <li>Social argumentation differs from formal argumentation</li>
+                        <li>Current models struggle to capture the social and rhetorical impact of arguments</li>
+                    </ul>
+				</section>
+
+				<section>
+					<section>
+	                    <h3>Problem Space: The Good</h3>
+	                    <ul>
+	                        <li>Social media is a rich opportunity for analysing "Big" argument structures</li>
+	                        <li>Allows us to see how massive communities form and conduct discussions</li>
+	                    </ul>
+					</section>
+					<!--<section>
+	                    <h3>Problem Space: The Bad</h3>
+	                    <ul>
+	                        <li>Filter bubbles - "smart" personalised search results/content</li>
+	                        <li>Echo chambers - reinforcement of accepted ideas</li>
+	                        <li>Can lead to stale communities</li>
+	                    </ul>
+	                    <hr></hr>
+	                    <footer class="ref">
+							Gilbert et al. (2009). Blogs are echo chambers: Blogs are echo chambers. <em>42nd Hawaii International Conference on System Sciences, HICSS’09</em><br/>
+							Sherchan et al. (2013). A survey of trust in social networks. <em>ACM Computing Surveys (CSUR)</em>
+	                    </footer>
+					</section>-->
+					<section>
+	                    <h3>Problem Space: The Bad</h3>
+	                    <ul>
+	                    	<li>Design of social spaces causing debate to stagnate (e.g. echo-chambers/filter bubbles)</li>
+	                        <li>Widespread controversy and abuse (e.g. #GamerGate)</li>
+	                        <li>Modelling these problems may help us solve them</li>
+	                    </ul>
+	                    <hr></hr>
+	                    <footer class="ref">
+	                    	Gilbert et al. (2009). Blogs are echo chambers: Blogs are echo chambers. <em>42nd Hawaii International Conference on System Sciences, HICSS’09</em><br/>
+	                    	Jane (2014). "Your a Ugly, Whorish, Slut" Understanding E-bile. <em>Feminist Media Studies</em>
+	                    </footer>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Argumentation</h3>
+						<ul>
+	                        <li>Current models focus on formal logic and reasoning</li>
+	                        <li>Useful for AI/agent based system</li>
+	                        <li>Less useful for modelling human beings</li>
+	                    </ul>
+					</section>
+					<section>
+						<h3>Dialectic/Eristic</h3>
+						<ul>
+	                        <li>Dialectic: Attempting to solve a problem or discover truth</li>
+	                        <li>Eristic: Quarrelling to "win"</li>
+	                    </ul>
+	                    <hr></hr>
+	                    <footer class="ref">
+	                    	Kerferd (1981). <em>The Sophistic Movement</em>. Cambridge University Press.
+	                    </footer>
+	                    
+					</section>
+					<section>
+						<h3>Logic/Rhetoric</h3>
+						<ul>
+	                        <li>Logic: Using "facts" to draw conclusions</li>
+	                        <li>Rhetoric: Using knowledge of the audience</li>
+	                    </ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Existing Models: AIF</h3>
+						<ul>
+	                        <li>Argument Interchange Format</li>
+	                        <li>Represents argumentation as a directed graph</li>
+	                        <li>Aims to link the concepts of natural language argumentation with abstract mathematical modelling</li>
+	                    </ul>
+	                    <hr></hr>
+	                    <footer class="ref">
+	                    	Chesñevar et al. (2006) Towards an argument interchange format. <em>Knowledge Engineering Review</em>
+	                    </footer>
+					</section>
+					<!--<section>
+						<h3>Existing Models: AIF</h3>
+						<img alt="AIF Ontology" src="images/ontologies/aif.png" width="70%">
+					</section>-->
+					<section>
+						<h3>Existing Models: AIF</h3>
+						<img alt="AIF Example" src="images/graphs/aif.png" width="30%">
+					</section>
+					<section>
+						<h3>Existing Models: AIF+</h3>
+						<img alt="AIF+ Example" src="images/graphs/aifplus.png" width="70%">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Existing Models: SIOC</h3>
+						<ul>
+	                        <li>Semantically-Interlinked Online Communities</li>
+	                        <li>Cross-platform, cross-service representation of data from the social web</li>
+	                        <li>Uses FOAF to link people to their online accounts</li>
+	                    </ul>
+	                    <hr></hr>
+	                    <footer class="ref">
+	                    	Breslin et al. (2006). SIOC: an approach to connect web-based communities. <em>International Journal of Web Based Communities</em>
+	                    </footer>
+					</section>
+					<!--<section>
+						<h3>Existing Models: SIOC</h3>
+						<img alt="SIOC: Ontology" src="images/ontologies/sioc.png" width="70%">
+					</section>-->
+					<section>
+						<h3>Existing Models: SIOC</h3>
+						<img alt="SIOC: Model" src="images/graphs/sioc.png" width="70%">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Example: Attacks</h3>
+						<q>"Alice isn't qualified to make that argument; she doesn't even have a PhD"</q>
+					</section>
+					<section>
+						<h3>Example: Attacks</h3>
+						<q>"Bob doesn't know what he's talking about - he's a ****ing idiot"</q>
+					</section>
+					<section>
+						<h3>Example: Attacks</h3>
+						<q>"**** off and die"</q>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>ASWO: Model</h3>
+						<ul>
+							<li>Argumentation on the Social Web</li>
+							<li>Ties together the AIF and SIOC frameworks</li>
+							<li>Extends these to cover social argumentation</li>
+						</ul>
+					</section>
+					<section>
+						<h3>ASWO: Model</h3>
+						<img alt="ASWO: Personas" src="images/graphs/personas.png" width="70%">
+					</section>
+					<section>
+						<h3>ASWO: Model</h3>
+						<img alt="ASWO: Personal Attacks" src="images/graphs/personalattacks.png" width="70%">
+					</section>
+				</section>
+				<section>
+					<h3>ASWO: Investigations</h3>
+					<ul>
+						<li>Sampled a set of 270 posts from Twitter, Facebook and Reddit</li>
+						<li>Annotated these posts using AIF/SIOC/ASWO</li>
+						<li>Examined the use of logical and rhetorical tactics</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h3>Rhetoric over time: Twitter</h3>
+						<img alt="Rhetoric over time: Twitter" src="images/rhetoric_over_time/twitter.png" width="70%">
+					</section>
+					<section>
+						<h3>Rhetoric over time: Facebook</h3>
+						<img alt="Rhetoric over time: Facebook" src="images/rhetoric_over_time/facebook.png" width="70%">
+					</section>
+					<section>
+						<h3>Rhetoric over time: Reddit</h3>
+						<img alt="Rhetoric over time: Reddit" src="images/rhetoric_over_time/reddit.png" width="70%">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Rhetoric per user: Twitter</h3>
+						<img alt="Rhetoric per user: Twitter" src="images/rhetoric_per_user/twitter.png" width="70%">
+					</section>
+					<section>
+						<h3>Rhetoric per user: Facebook</h3>
+						<img alt="Rhetoric per user: Facebook" src="images/rhetoric_per_user/facebook.png" width="70%">
+					</section>
+					<section>
+						<h3>Rhetoric per user: Reddit</h3>
+						<img alt="Rhetoric per user: Reddit" src="images/rhetoric_per_user/reddit.png" width="70%">
+					</section>
+				</section>
+				<!--<section>
+					<h3>Argument Feature/Post Content Correlation</h3>
+					<img alt="Rhetoric per user: Twitter" src="images/correlations/reddit.png" width="70%">
+				</section>-->
+				<section>
+					<h3>ASWO: Analysis</h3>
+					<ul>
+						<li>Even a subset of social/rhetorical tactics are prevalent in online argumentation</li>
+						<li>May be possible to draw some correlations between post content and tactics</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Future work</h3>
+					<ul>
+						<li>Introduce further ASWO extensions</li>
+						<li>Examine distribution of rhetorical tactics on different social media platforms</li>
+						<li>Examine how different tactics alter a user's perception of the argument as a whole</li>
+					</ul>
+				</section>
+                <section>
+                    <h3>Conclusion</h3>
+                    <ul>
+                        <li>Current models of argumentation do not capture rhetorical force or social impact</li>
+                        <li>Social media is an excellent opportunity to analyse argumentation on a large scale</li>
+                        <li>The social (and anti-social) aspects of argumentation cannot and should not be ignored</li>
+                    </ul>
+                </section>
+                <section>
+					<h3>Questions?</h3>
+					<p>Tom Blount - tb12g09@ecs.soton.ac.uk - @Tom_Blount</p>
+				</section>
+				<section>
+					<h3>References</h3>
+					<style type="text/css">
+						#bib {
+						   margin:0 auto;
+						   font-size: 0.4em;
+						   text-align: left;
+						}
+						</style>
+
+						<div id="bib">
+					    	Breslin, J. G., Decker, S., Harth, A., and Bojars, U. (2006). SIOC: an approach to connect web-based communities. <em>International Journal of Web Based Communities</em>, 2(2):133–142.<br/>
+					    	<br/>
+					        Chesñevar, C., McGinnis, J., Modgil, S., Rahwan, I., Reed, C., Simari, G., South, M., Vreeswijk, G., andWillmott, S. (2006). Towards an argument interchange format. <em>Knowledge Engineering Review</em>, 21(4):293–316.<br/>
+					        <br/>
+					        Gilbert, E., Bergstrom, T., and Karahalios, K. (2009). Blogs are echo chambers: Blogs are echo chambers. <em>42nd Hawaii International Conference on System Sciences, HICSS’09</em>, pages 1–10. IEEE.<br/>
+					        <br/>
+					        Jane, E. A. (2014). "Your a Ugly, Whorish, Slut" Understanding E-bile. <em>Feminist Media Studies</em>, 14(4):531–546.<br/>
+					        <br/>
+					        Kerferd, G. B. (1981). <em>The Sophistic Movement</em>. Cambridge University Press.<br/>
+							<!--<br/>
+							Sherchan, W., Nepal, S., and Paris, C. (2013). A survey of trust in social networks. <em>ACM Computing Surveys (CSUR)</em>, 45(4):47.-->
+						</div>
+					
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
